@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.video-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -2;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.switch-btn {
+  position: absolute;
+  bottom: 7%;
+  right: 7%;
+  width: 7rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border: rgba(6, 124, 32, 0.767);
+}
+
+.switch-btn span {
+  display: inline-block;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: rgba(6, 124, 32, 0.767);
+  padding: 8px;
+}
+
+.switch {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(6, 124, 32);
+  border-radius: 5px;
+  display: block;
+  transition: all 0.2s linear;
+}
+
+.slide .switch {
+  left: 50%;
+}
