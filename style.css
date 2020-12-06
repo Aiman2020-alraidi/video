@@ -69,3 +69,17 @@ h1 {
 .slide .switch {
   left: 50%;
 }
+
+.loading {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  top: 50%;
+  z-index: 999;
+  visibility: visible;
+}
+
+.hide-loading {
+  z-index: -999;
+  visibility: hidden;
+}
