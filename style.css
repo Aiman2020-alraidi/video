@@ -55,7 +55,7 @@ h1 {
 }
 
 .switch {
-  position: absolute;
+  position: fixed;
   width: 50%;
   height: 100%;
   top: 0;
