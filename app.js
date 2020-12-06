@@ -5,18 +5,18 @@ const loading = document.querySelector(".loading");
 console.log(switchBtn);
 window.addEventListener("DOMContentLoaded", () => {
   switchBtn.addEventListener("click", (e) => {
-    if (!e.currentTarget.classList.contains("slide")) {
+    if (e.currentTarget.classList.contains("slide")) {
+      e.currentTarget.classList.remove("slide");
+      videoContainer.play();
+    } else {
       e.currentTarget.classList.add("slide");
       videoPause();
-    } else {
-      e.currentTarget.classList.remove("slide");
-      videoPlay();
     }
   });
 });
-const videoPlay = (e) => {
-  videoContainer.play();
-};
+// const videoPlay = (e) => {
+//   videoContainer.play();
+// };
 
 const videoPause = (e) => {
   videoContainer.pause();
