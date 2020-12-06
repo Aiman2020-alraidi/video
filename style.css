@@ -33,7 +33,7 @@ h1 {
 }
 
 .switch-btn {
-  position: absolute;
+  position: fixed;
   bottom: 7%;
   right: 7%;
   width: 7rem;
@@ -55,7 +55,7 @@ h1 {
 }
 
 .switch {
-  position: fixed;
+  position: absolute;
   width: 50%;
   height: 100%;
   top: 0;
