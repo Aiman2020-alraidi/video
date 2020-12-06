@@ -59,7 +59,7 @@ h1 {
   width: 50%;
   height: 100%;
   top: 0;
-  left: 0;
+  left: 50%;
   background: rgba(6, 124, 32);
   border-radius: 5px;
   display: block;
@@ -67,7 +67,7 @@ h1 {
 }
 
 .slide .switch {
-  left: 50%;
+  left: 0%;
 }
 
 .loading {
